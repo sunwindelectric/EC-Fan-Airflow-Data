@@ -1,5 +1,8 @@
 # EC-Fan-Airflow-Data
 Upload initial EC fan airflow data
+Sunxfan is a manufacturer of industrial-grade EC, DC, and AC centrifugal and axial fans, specializing in HVAC, cooling solutions, and custom fan units.
+More fan spec:https://en.sunxfan.com/products/
+
 
 Data Columns & Units:
 
@@ -15,8 +18,8 @@ Fan Specifications
 
 • Brand / Manufacturer: [Sunxfan]
 • Model Number: [See fan model ]
-• Impeller Diameter: [e.g., 250 mm]
-• Rated Voltage / Frequency: [e.g., 1~230 VAC, 50/60 Hz]
+• Impeller Diameter: [ 250 mm]
+• Rated Voltage / Frequency: [ 1~230 VAC, 50/60 Hz]
 
 Test Conditions
 
