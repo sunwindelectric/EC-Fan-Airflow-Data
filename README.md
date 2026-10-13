@@ -15,21 +15,17 @@ Data Columns & Units:
 
 
 Fan Specifications
-# EC146 Double Inlet Centrifugal Fan Airflow Performance Dataset
+# SF146A-E092A3-02 Performance Test Data
 
-This repository contains experimental airflow performance data for the **EC146 Double Inlet Centrifugal Fan**. The dataset is intended for HVAC engineers, thermal management researchers, and ventilation system designers to assist in system simulation, aerodynamic analysis, and fan selection.
+EC146 Double Inlet Centrifugal Fan performance test dataset provided by **Sunxfan**.
 
-## 📊 Dataset Overview
-The primary data is available in [**airflow_data.csv**](./airflow_data.csv).
+* **Official Website**: [Sunxfan SF146A-E092A3-02](https://en.sunxfan.com/en/products/sf146a-e092a3-02/)
+* **Test Date**: 2022/4/19
 
-### Data Columns & Units:
-- `Control_Signal_V`: Control voltage inputs (0.0 to 10.0 V) or PWM duty cycle (%).
-- `Fan_Speed_RPM`: Rotational speed measured in Revolutions Per Minute (RPM).
-- `Airflow_CMH`: Volumetric airflow rate measured in Cubic Meters per Hour (m³/h).
-- `Static_Pressure_Pa`: Fan static pressure measured in Pascals (Pa).
+### 🌡️ Environmental Test Parameters
+* **Ambient Temperature**: 22.37 °C
+* **Humidity**: 67.7%
+* **Specific Gravity**: 1.19
+* **Atmospheric Pressure**: 101.57 kPa
 
-## 🛠️ Technical Specifications
-- **Fan Type**: Double Inlet Centrifugal Fan
-- **Impeller Diameter / Size**: 146 mm
-- **Motor Technology**: Electronically Commutated (EC) Motor
 
