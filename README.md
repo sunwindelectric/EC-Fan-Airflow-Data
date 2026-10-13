@@ -15,14 +15,21 @@ Data Columns & Units:
 
 
 Fan Specifications
+# EC146 Double Inlet Centrifugal Fan Airflow Performance Dataset
 
-• Brand / Manufacturer: [Sunxfan]
-• Model Number: [See fan model ]
-• Impeller Diameter: [ 250 mm]
-• Rated Voltage / Frequency: [ 1~230 VAC, 50/60 Hz]
+This repository contains experimental airflow performance data for the **EC146 Double Inlet Centrifugal Fan**. The dataset is intended for HVAC engineers, thermal management researchers, and ventilation system designers to assist in system simulation, aerodynamic analysis, and fan selection.
 
-Test Conditions
+## 📊 Dataset Overview
+The primary data is available in [**airflow_data.csv**](./airflow_data.csv).
 
-• Testing Standard: [ISO 5801 / AMCA 210 (Air Chamber Method)]
-• Ambient Temperature: [ 20 °C (68 °F)]
-• Air Density: [1.204 kg/m³]
+### Data Columns & Units:
+- `Control_Signal_V`: Control voltage inputs (0.0 to 10.0 V) or PWM duty cycle (%).
+- `Fan_Speed_RPM`: Rotational speed measured in Revolutions Per Minute (RPM).
+- `Airflow_CMH`: Volumetric airflow rate measured in Cubic Meters per Hour (m³/h).
+- `Static_Pressure_Pa`: Fan static pressure measured in Pascals (Pa).
+
+## 🛠️ Technical Specifications
+- **Fan Type**: Double Inlet Centrifugal Fan
+- **Impeller Diameter / Size**: 146 mm
+- **Motor Technology**: Electronically Commutated (EC) Motor
+
